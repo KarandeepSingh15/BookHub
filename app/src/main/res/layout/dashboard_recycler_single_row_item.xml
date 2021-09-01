@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rlRecyclerDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgSingleItemPic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:padding="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/txtSingleItemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgSingleItemPic"
+            android:maxWidth="200dp"
+            android:padding="10dp"
+            android:text="The Lord of the Rings"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtSingleItemAuthorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSingleItemTitle"
+            android:layout_toRightOf="@+id/imgSingleItemPic"
+            android:padding="10dp"
+            android:text="Name of the Author"
+            android:textColor="@color/grey"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtSingleItemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSingleItemAuthorName"
+            android:layout_toRightOf="@+id/imgSingleItemPic"
+            android:padding="10dp"
+            android:text="Rs.199"
+            android:textColor="@color/primaryColor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtSingleItemRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawableStart="@drawable/ic_star"
+            android:drawableTint="@color/yellow"
+            android:padding="10dp"
+            android:text="4.5"
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

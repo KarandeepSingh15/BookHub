@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFragment">
+
+
+    <TextView
+        android:id="@+id/txtnameDisplay"
+        android:textSize="15sp"
+        android:text="Name"
+        android:textColor="@color/primaryColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+    <TextView
+        android:id="@+id/txtName"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtnameDisplay"
+        android:text="Karan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+    <TextView
+        android:id="@+id/txtemailDisplay"
+        android:textSize="15sp"
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_below="@+id/txtName"
+        android:textColor="@color/primaryColor"
+        />
+    <TextView
+        android:id="@+id/txtEmail"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtemailDisplay"
+        android:text="Karan@Gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+    <TextView
+        android:id="@+id/txtmobileDisplay"
+        android:textSize="15sp"
+        android:text="Contact Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_below="@+id/txtEmail"
+        android:textColor="@color/primaryColor"
+        />
+    <TextView
+        android:id="@+id/txtMobile"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtmobileDisplay"
+        android:text="9988226673"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+    <TextView
+        android:id="@+id/txtaddressDisplay"
+        android:textSize="15sp"
+        android:text="Contact Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_below="@+id/txtMobile"
+        android:textColor="@color/primaryColor"
+        />
+    <TextView
+        android:id="@+id/txtAddress"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtaddressDisplay"
+        android:text="A block Kalkaji New Delhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+
+
+
+</RelativeLayout>
